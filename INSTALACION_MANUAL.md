@@ -7,7 +7,7 @@ Si no puedes instalar Composer, sigue esta guía para descargar las librerías m
 ### Opción 1: Descarga Directa desde GitHub
 
 #### 1. TCPDF (Generación de PDFs)
-- **Descargar:** https://github.com/tecnickcom/TCPDF/archive/refs/tags/6.6.5.zip
+- **Descargar:** https://github.com/tecnickcom/TCPDF/archive/refs/heads/main.zip
 - **Extraer en:** `vendor/tecnickcom/tcpdf/`
 
 **Pasos:**
@@ -15,11 +15,11 @@ Si no puedes instalar Composer, sigue esta guía para descargar las librerías m
 1. Descarga el ZIP desde el enlace
 2. Extrae el contenido
 3. Crea la carpeta: C:\xampp\htdocs\escribirpdf\vendor\tecnickcom\tcpdf\
-4. Copia todo el contenido de la carpeta extraída (TCPDF-6.6.5) dentro de tcpdf\
+4. Copia todo el contenido de la carpeta extraída (TCPDF-main) dentro de tcpdf\
 ```
 
 #### 2. PHP-QRCode (Códigos QR)
-- **Descargar:** https://github.com/chillerlan/php-qrcode/archive/refs/tags/4.3.4.zip
+- **Descargar:** https://github.com/chillerlan/php-qrcode/archive/refs/tags/4.4.2.zip
 - **Extraer en:** `vendor/chillerlan/php-qrcode/`
 
 **Pasos:**
@@ -27,11 +27,11 @@ Si no puedes instalar Composer, sigue esta guía para descargar las librerías m
 1. Descarga el ZIP desde el enlace
 2. Extrae el contenido
 3. Crea la carpeta: C:\xampp\htdocs\escribirpdf\vendor\chillerlan\php-qrcode\
-4. Copia todo el contenido de la carpeta extraída (php-qrcode-4.3.4) dentro de php-qrcode\
+4. Copia todo el contenido de la carpeta extraída (php-qrcode-4.4.2) dentro de php-qrcode\
 ```
 
 #### 3. PHP Settings Container (Dependencia de QRCode)
-- **Descargar:** https://github.com/chillerlan/php-settings-container/archive/refs/tags/2.1.4.zip
+- **Descargar:** https://github.com/chillerlan/php-settings-container/archive/refs/tags/3.0.1.zip
 - **Extraer en:** `vendor/chillerlan/php-settings-container/`
 
 **Pasos:**
@@ -39,7 +39,7 @@ Si no puedes instalar Composer, sigue esta guía para descargar las librerías m
 1. Descarga el ZIP desde el enlace
 2. Extrae el contenido
 3. Crea la carpeta: C:\xampp\htdocs\escribirpdf\vendor\chillerlan\php-settings-container\
-4. Copia todo el contenido de la carpeta extraída dentro de php-settings-container\
+4. Copia todo el contenido de la carpeta extraída (php-settings-container-3.0.1) dentro de php-settings-container\
 ```
 
 #### 4. PHP Barcode Generator (Códigos de Barras)

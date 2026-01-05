@@ -12,21 +12,21 @@ echo "========================================\n\n";
 $dependencies = [
     [
         'name' => 'TCPDF',
-        'url' => 'https://github.com/tecnickcom/TCPDF/archive/refs/tags/6.6.5.zip',
+        'url' => 'https://github.com/tecnickcom/TCPDF/archive/refs/heads/main.zip',
         'extractTo' => 'vendor/tecnickcom/tcpdf',
-        'zipFolder' => 'TCPDF-6.6.5',
+        'zipFolder' => 'TCPDF-main',
     ],
     [
         'name' => 'PHP-QRCode',
-        'url' => 'https://github.com/chillerlan/php-qrcode/archive/refs/tags/4.3.4.zip',
+        'url' => 'https://github.com/chillerlan/php-qrcode/archive/refs/tags/4.4.2.zip',
         'extractTo' => 'vendor/chillerlan/php-qrcode',
-        'zipFolder' => 'php-qrcode-4.3.4',
+        'zipFolder' => 'php-qrcode-4.4.2',
     ],
     [
         'name' => 'PHP-Settings-Container',
-        'url' => 'https://github.com/chillerlan/php-settings-container/archive/refs/tags/2.1.4.zip',
+        'url' => 'https://github.com/chillerlan/php-settings-container/archive/refs/tags/3.0.1.zip',
         'extractTo' => 'vendor/chillerlan/php-settings-container',
-        'zipFolder' => 'php-settings-container-2.1.4',
+        'zipFolder' => 'php-settings-container-3.0.1',
     ],
     [
         'name' => 'PHP-Barcode-Generator',
