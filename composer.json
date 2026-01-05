@@ -1,0 +1,22 @@
+{
+    "name": "liamgael2023/escribirpdf",
+    "description": "Sistema PHP para cargar PDFs y agregar códigos QR, códigos de barras, imágenes y etiquetas",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "tecnickcom/tcpdf": "^6.6",
+        "chillerlan/php-qrcode": "^4.3",
+        "picqer/php-barcode-generator": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "EscribirPDF\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LiamGael2023"
+        }
+    ]
+}

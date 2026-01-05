@@ -1,0 +1,40 @@
+# Composer
+/vendor/
+composer.lock
+
+# PDFs generados
+/output/*.pdf
+
+# PDFs de prueba (excepto ejemplos específicos)
+/uploads/*.pdf
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Logs
+*.log
+
+# Cache
+.cache/
+tmp/
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PHP
+.phpunit.result.cache
+.php_cs.cache
