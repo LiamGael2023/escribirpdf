@@ -31,7 +31,7 @@ Si no puedes instalar Composer, sigue esta guía para descargar las librerías m
 ```
 
 #### 3. PHP Settings Container (Dependencia de QRCode)
-- **Descargar:** https://github.com/chillerlan/php-settings-container/archive/refs/tags/3.0.1.zip
+- **Descargar:** https://github.com/chillerlan/php-settings-container/archive/refs/tags/2.1.6.zip
 - **Extraer en:** `vendor/chillerlan/php-settings-container/`
 
 **Pasos:**
@@ -39,7 +39,7 @@ Si no puedes instalar Composer, sigue esta guía para descargar las librerías m
 1. Descarga el ZIP desde el enlace
 2. Extrae el contenido
 3. Crea la carpeta: C:\xampp\htdocs\escribirpdf\vendor\chillerlan\php-settings-container\
-4. Copia todo el contenido de la carpeta extraída (php-settings-container-3.0.1) dentro de php-settings-container\
+4. Copia todo el contenido de la carpeta extraída (php-settings-container-2.1.6) dentro de php-settings-container\
 ```
 
 #### 4. PHP Barcode Generator (Códigos de Barras)

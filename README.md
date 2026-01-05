@@ -69,7 +69,7 @@ php crear_autoload_manual.php
 Descarga desde GitHub:
 - **TCPDF:** https://github.com/tecnickcom/TCPDF/archive/refs/heads/main.zip
 - **PHP-QRCode:** https://github.com/chillerlan/php-qrcode/archive/refs/tags/4.4.2.zip
-- **PHP-Settings:** https://github.com/chillerlan/php-settings-container/archive/refs/tags/3.0.1.zip
+- **PHP-Settings:** https://github.com/chillerlan/php-settings-container/archive/refs/tags/2.1.6.zip
 - **Barcode:** https://github.com/picqer/php-barcode-generator/archive/refs/tags/v2.4.0.zip
 
 **📋 Guía completa:** Ver [INSTALACION_MANUAL.md](INSTALACION_MANUAL.md)

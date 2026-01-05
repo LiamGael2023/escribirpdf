@@ -24,9 +24,9 @@ $dependencies = [
     ],
     [
         'name' => 'PHP-Settings-Container',
-        'url' => 'https://github.com/chillerlan/php-settings-container/archive/refs/tags/3.0.1.zip',
+        'url' => 'https://github.com/chillerlan/php-settings-container/archive/refs/tags/2.1.6.zip',
         'extractTo' => 'vendor/chillerlan/php-settings-container',
-        'zipFolder' => 'php-settings-container-3.0.1',
+        'zipFolder' => 'php-settings-container-2.1.6',
     ],
     [
         'name' => 'PHP-Barcode-Generator',
