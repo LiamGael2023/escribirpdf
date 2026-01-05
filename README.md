@@ -16,20 +16,42 @@ Sistema PHP para cargar documentos PDF de cualquier tamaño y agregar códigos Q
 ## Requisitos
 
 - PHP >= 7.4
-- Composer
+- Composer (gestor de dependencias de PHP)
 
-## Instalación
+## ⚠️ INSTALACIÓN IMPORTANTE
 
-1. Clonar el repositorio:
+### ⚙️ Paso 1: Instalar Composer (si no lo tienes)
+
+**Windows (XAMPP/WAMP):**
+1. Descarga: https://getcomposer.org/Composer-Setup.exe
+2. Durante la instalación, selecciona: `C:\xampp\php\php.exe`
+3. Verifica: `composer --version`
+
+**Linux/Mac:**
 ```bash
-git clone https://github.com/LiamGael2023/escribirpdf.git
-cd escribirpdf
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
 ```
 
-2. Instalar dependencias con Composer:
+### 🚀 Paso 2: Instalar las Dependencias
+
+**OBLIGATORIO** - Ejecuta esto en la raíz del proyecto:
+
 ```bash
 composer install
 ```
+
+Este comando descargará todas las librerías necesarias (TCPDF, php-qrcode, php-barcode-generator).
+
+### ✅ Paso 3: Verificar la Instalación
+
+```bash
+php verificar_instalacion.php
+```
+
+Si todo está bien, verás: `✅ ¡TODO ESTÁ CORRECTO!`
+
+**📖 Más detalles:** Ver [INSTALACION.md](INSTALACION.md)
 
 ## Uso Rápido
 
