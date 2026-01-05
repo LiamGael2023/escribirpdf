@@ -53,6 +53,27 @@ Si todo está bien, verás: `✅ ¡TODO ESTÁ CORRECTO!`
 
 **📖 Más detalles:** Ver [INSTALACION.md](INSTALACION.md)
 
+---
+
+### 🔧 Instalación Sin Composer (Alternativa)
+
+Si **no puedes instalar Composer**, tienes dos opciones:
+
+#### Opción A: Descarga Automática
+```bash
+php descargar_dependencias.php
+php crear_autoload_manual.php
+```
+
+#### Opción B: Descarga Manual
+Descarga desde GitHub:
+- **TCPDF:** https://github.com/tecnickcom/TCPDF/releases/tag/6.6.5
+- **PHP-QRCode:** https://github.com/chillerlan/php-qrcode/releases/tag/4.3.4
+- **PHP-Settings:** https://github.com/chillerlan/php-settings-container/releases/tag/2.1.4
+- **Barcode:** https://github.com/picqer/php-barcode-generator/releases/tag/v2.4.0
+
+**📋 Guía completa:** Ver [INSTALACION_MANUAL.md](INSTALACION_MANUAL.md)
+
 ## Uso Rápido
 
 ### Crear un PDF nuevo con códigos y etiquetas
